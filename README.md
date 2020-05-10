@@ -1,5 +1,5 @@
 # AICity-2020-CETCVLAB
-Code for the Submission by CVLAB, College of Engineering, Trivandrum to AI City Challenge Track 4 which obtained third position in leaderboard.
+Code for the Submission to AI City Challenge Track 4 by Computer Vision LAB, College of Engineering, Trivandrum which obtained third position in leaderboard.
 The leader board statistics for the proposed method are :
 
 * F1-Score : 0.7018
