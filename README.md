@@ -31,38 +31,38 @@ python3 CombinedExtractor.py
 
 ### Step 1 Running the detections on Original Video and Background Generation (to save time both of these can be run in parallel)
 
-'''
+```
 python3 normdetect.py
 python3 createbg.py
-'''
+```
 
 ### Step 2 Run the detections on the averaged background frames
 
-'''
+```
 python3 bgnormdetect.py
-'''
+```
 
 ### Step 3 Run the normal extractor to identify which all videos to run the crop detections
 
 This will partially fill the results and provide a text file zoomcheck.txt which gives the video numbers for the videos to check for zoom/cropped detections.
 
-'''
+```
 python3 CombinedExtractor.py normal
-'''
+```
 
 ### Step 4 Run the Crop Detector on the videos and the background samples (can be run in parallel)
 
-'''
+```
 python3 cropdetect.py
 python3 bgcropdetect.py
-'''
+```
 
 ### Step 3 Run the zoom extractor to get the final results
 
 This will fill up the rest of the Result.txt by running the anomaly extraction algorithm on the detection text files
 
-'''
+```
 python3 CombinedExtractor.py zoom
-'''
+```
 
 Result.txt will contain the results in the AI City Challenge Track 4 format
