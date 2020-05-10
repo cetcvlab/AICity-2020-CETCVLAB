@@ -71,3 +71,9 @@ python3 CombinedExtractor.py zoom
 ```
 
 Result.txt will contain the results in the AI City Challenge Track 4 format
+
+## References
+
+* Background Generation : Using same parameters as [2019-CVPR-AIC-Track-3-UWIPL](https://github.com/ipl-uw/2019-CVPR-AIC-Track-3-UWIPL/blob/master/candidate%20selection/bgfg%20generate%20v2.py)
+* Freeze detection on videos : [2019-CVPR-AIC-Track-3-UWIPL](https://github.com/ipl-uw/2019-CVPR-AIC-Track-3-UWIPL/blob/master/time%20decision/get_freeze_period.py)
+
