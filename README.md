@@ -17,7 +17,7 @@ The leader board statistics for the proposed method are :
 
 ## Pre-Trained Weights
 
-The detection model YOLOv3 uses the pretrained weights provided here : [OlafenwaMoses/ImageAI](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo.h5) , the weight file is exected to be placed in the same working directory as the code.
+The detection model YOLOv3 uses the pretrained weights provided here : [OlafenwaMoses/ImageAI](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo.h5) , the weight file is expected to be placed in the same working directory as the code.
 
 ## Reproducing the Results without Running the detections
 
@@ -28,6 +28,11 @@ python3 CombinedExtractor.py
 ```
 
 ## Reproducing the Results after running the detections
+
+Export the Environment variable ```AICITYVIDEOPATH``` to the input video directory (test and train) 
+```
+export AICITYVIDEOPATH="/path/to/track4/dataset/"
+```
 
 ### Step 1 Running the detections on Original Video and Background Generation (to save time both of these can be run in parallel)
 
